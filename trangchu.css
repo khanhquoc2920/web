@@ -1,0 +1,149 @@
+*{
+		box-sizing: border-box;
+		
+	}
+	body{
+	margin = 20px;
+	}	
+	.header{
+	background-color:orange;
+	text-align:center;
+	padding:50px;
+	}
+	.column{
+	float:left;
+	padding:10px 15px;
+	
+	}
+	.column.side{width:350px;
+			
+	}
+	
+	
+	.column.middle{width:1000px;
+	
+	}
+	
+	#goi{
+	background-color:red;
+	color:white;
+	overflow:hidden;
+	}
+	.menu {
+	 position: relative;
+	display: inline-block;
+	background-color:#00CC33;
+	overflow:hidden;
+	}
+	.menu a{
+	float:left;
+	text-decoration:none;
+	padding:20px 70px;
+	text-align:center;
+	color:white;
+	}
+	.menu a:hover{
+	background-color:orange;
+	font-weight:bold;
+	color:white;
+	}
+	.bang{
+	background-color:#E6E6E6;	
+	witdh=100%;
+	height=500px;
+	}
+	.bang a{
+	text-decoration:none;
+	}
+	h4{
+	color:blue;
+	}
+	h4 a{
+	text-decoration:none;
+	}
+	.bangmoi{
+	background-color:#00CC33;
+	
+	}
+	.bangmoi a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	text-align:center;
+	}
+	.bangmoi a:hover{	
+	text-decoration:underline;
+	color:white;
+	font-weight:bold;
+	}
+                  .mainmenubtn {
+  	background-color: #00CC33;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding:20px 50px;
+	margin-top:20px;
+	text-align:left;
+	}
+
+	.mainmenubtn:hover {
+                  background-color: orange;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #00CC33;
+    min-width: 200px;
+    color:white;
+}
+.dropdown-child a {
+    color:white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.dropdown-child a:hover{
+	color:white;
+	background-color: orange;
+}
+.footer{
+	float:left;
+	padding:10px 15px;
+	background-color:#00CC33;
+	width:33%;
+	color:white;
+	overflow:hidden;	
+}
+.can{
+clear:both;
+float:left;
+}
+.canh{
+margin=20px;
+overflow:hidden;
+}
+.chan a{
+text-decoration:none;
+}
+button{
+  background-color:red;
+  color:white;
+}
+table a{
+text-decoration:none;
+}
+form{
+border:5px}
+
+	
+ 	
+
+
+	
